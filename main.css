@@ -1,48 +1,54 @@
-body {
-    margin: 0;
-    padding: 0;
-    max-width: 500px;
-    max-height: 728px;
-    font-family: 'Poppins', sans-serif;
-    display: center;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    text-align: justify;
-    background-color: rgb(2,2,2);
+@media screen and (max-device-width:480px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        max-width: 480px;
+        max-height: 728px;
+        font-family: 'Poppins', sans-serif;
+        display: center;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        text-align: justify;
+        background-color: rgb(2,2,2);
+    }
+    
+    p {
+        font-size: 5px;
+        list-style: 10px;
+        background: url(lianne.jpg);
+        background-attachment: center;
+        -webkit-background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-clip: text;
+        background-attachment: center;
+        -webkit-text-fill-color: rgba(255,255,255,0.1);
+    }
+    
+    /* width */
+    ::-webkit-scrollbar {
+        width: 5px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track { 
+        opacity: 0;
+        border-radius: 10px;
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgb(39, 38, 38); 
+        border-radius: 10px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+
+
 }
 
-p {
-    font-size: 5px;
-    list-style: 10px;
-    background: url(lianne.jpg);
-    background-attachment: center;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-clip: text;
-    background-attachment: center;
-    -webkit-text-fill-color: rgba(255,255,255,0.1);
-}
-
-/* width */
-::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track { 
-    opacity: 0;
-    border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(39, 38, 38); 
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
